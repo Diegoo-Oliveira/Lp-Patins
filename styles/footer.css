@@ -97,3 +97,23 @@ footer {
         }
     }
 }
+
+@media (min-width: 1024px) {
+    footer {
+        flex-direction: row;
+        padding: 4rem 2rem 2rem;
+
+        & .logo {
+            gap: 0.75rem;
+        }
+
+        & nav {
+            gap: 2rem;
+            flex-direction: row;
+        }
+
+        & .social-links {
+            gap: 1rem;
+        }
+    }
+}
