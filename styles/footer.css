@@ -102,6 +102,7 @@ footer {
     footer {
         flex-direction: row;
         padding: 4rem 2rem 2rem 2rem;
+        align-items: center;
 
         & .logo {
             gap: 0.75rem;
